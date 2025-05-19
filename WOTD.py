@@ -7,6 +7,7 @@ Created on Mon May 19 12:09:25 2025
 """
 
 import nltk
+nltk.data.path.append("./nltk_data")
 from nltk.corpus import words
 
 
